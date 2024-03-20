@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Rosa claro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e88dba; /* Rosa fuerte */
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-principal img {  
+	margin-right: 10px;
+}
+
+.titulo-principal {
+    margin-left: 10px; /* Ajusta el margen entre el logo y el texto según tu preferencia */
+}
+
+.textoEntrada {
+    width: 80%;
+    height: 150px;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    color: #555; /* Gris oscuro */
+}
+
+
+.rectangulo {
+    background-color: #fff0f5; /* Rosa claro */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.muneco {
+    max-width: 160px;
+    margin-bottom: 20px;
+    margin-top: 20;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.texto-container {
+    flex-grow: 1; /* Permite que el texto ocupe todo el espacio disponible */
+   
+}
+
+.text1 {
+    margin: 10px auto;
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    color: #555; /* Gris oscuro */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.but-copy {
+    background-color: #e88dba; /* Rosa fuerte */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+   
+}
+
+.but-copy:hover {
+    background-color: #d660a7; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.alerta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.alerta img {
+    margin-right: 10px; /* Ajusta el margen entre la imagen y el párrafo según tu preferencia */
+}
+
+.botones {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.but-encrip {
+    background-color: #e88dba; /* Rosa fuerte */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+.but-encrip:hover {
+    background-color: #d660a7; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.but-desen {
+    background-color: white;
+    color:  #e88dba; 
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    border: 1px solid #e88dba; /* Agrega un borde delgado de color rosado */
+}
+
+.but-desen:hover {
+    background-color: #e88dba; /* Cambia el fondo al pasar el mouse */
+    color: white; /* Cambia el color del texto al pasar el mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #ffffff; 
+}
+
+.datos {
+    color: #FF69B4; /* Color rosita */
+    font-size: 16px;
+    margin: 20px;
+}

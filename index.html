@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+                <h1 class="logo-principal"><img src="imagenes/Logo.png"></h1>
+                <h1 class="titulo-principal">Encriptador</h1>
+        </header>
+
+        <textarea  id="textoEntrada" class="textoEntrada" placeholder="Ingrese el texto aquí" ></textarea>
+
+        <main>
+            <div class="rectangulo">
+                <img class="muneco" src="imagenes/Muñeco.png">
+                <div class="texto-container">
+                    <p class="text1" style="display:block;">Ningún mensaje fue encontrado <br><br> Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <button class="but-copy" style="display: none;" onclick="copiarTexto()">Copiar</button>
+                </div> 
+            </div>
+
+            <div class="alerta">
+                <img src="imagenes/bi_exclamation-circle-fill.png">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+        
+            <div class="botones">
+                <button class="but-encrip" onclick="encriptarTexto()">Encriptar</button>
+                <button class="but-desen" onclick="desencriptarTexto()">Desencriptar</button>
+            </div>
+
+            <script src="encriptador.js"></script>
+
+        </main>
+
+        <footer>
+            <p class="datos">Larissa Romero - 2024</p>
+        </footer>
+
+    </body>
+</html>
+
